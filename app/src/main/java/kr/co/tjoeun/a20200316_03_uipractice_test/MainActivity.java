@@ -68,6 +68,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+//        로그인버튼을 누르면 => 로그인 합니다. 토스트 출력.
+
+        loginBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, "로그인 합니다", Toast.LENGTH_SHORT).show();
+            }
+        });
+        
+
     }
 }
 
