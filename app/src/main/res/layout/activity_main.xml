@@ -22,11 +22,13 @@
         android:layout_marginTop="70dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
         android:hint="ID"/>
     <EditText
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="textPassword"
         android:hint="Password"/>
 
     <Button
@@ -43,23 +45,32 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:orientation="horizontal">
+
         <TextView
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         android:text="비밀번호 찾기"/>
-        <TextView
+
+           <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="회원가입"
-            android:gravity="right"
-            android:textColor="#FF0000"/>
+            android:layout_weight="1"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="회원가입"
+        android:gravity="right"
+        android:textColor="#FF0000"/>
 
 
 
     </LinearLayout>
-    </LinearLayout>
+</LinearLayout>
 
 
 
